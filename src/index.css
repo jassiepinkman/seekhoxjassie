@@ -1,13 +1,80 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.seekho__flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.seekho__flex-col{
+  flex-direction: column;
+}
+
+.seekho__mr-20{
+  margin: 20px;
+}
+
+.seekho__border{
+  border: 2px solid #000;
+}
+
+.seekho__pointer{
+  cursor: pointer;
+}
+
+.seekho__min-w-100{
+  min-width: 100px;
+}
+
+.seekho__pd-20-5{
+  padding: 20px 5px;
+}
+
+.seekho__pd-10-5{
+  padding: 10px 5px;
+}
+
+.seekho__quiz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.seekho__quiz-box {
+  width: 700px;
+  height: 400px;
+}
+
+.seekho__review{
+  width: 200px;
+  height: 400px;
+}
+
+.seekho__answer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.seekho__answers-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seekho__results{
+  width: 900px;
+  height: 400px;
+}
+
+.seekho__results h3{
+  padding: 20px;
+}
+
+
+
+   
